@@ -29,5 +29,5 @@ class KNNClassifier(BaseEstimator, ClassifierMixin):
 
         return y_pred
 
-base = pd.read_csv('iris.csv')
+base = pd.read_csv('Dmoz-Sports.csv')
 base.head()
